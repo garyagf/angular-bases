@@ -1,3 +1,4 @@
+import { DbzModule } from './dbz/dbz.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,7 +17,8 @@ import { HeroModule } from './heroes/hero.module';
     BrowserModule,
     AppRoutingModule,
     CounterModule,
-    HeroModule
+    HeroModule,
+    DbzModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

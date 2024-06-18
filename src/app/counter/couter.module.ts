@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CounterComponent } from './componets/counter/counter.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 
 
